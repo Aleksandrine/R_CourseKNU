@@ -32,7 +32,9 @@ m3
 
 #Task 4. Створити довільний список (list), в який включити всі базові типи.
 list1 <- list("Oleksandra", 7, 7L, 7+7i, TRUE)
+list2 <- list(character, integer, logical)
 list1
+list2
 
 #Task 5. Створити фактор з трьома рівнями «baby», «child», «adult».
 fact1 <- factor(c("child", "adult", "baby", "child", "baby", "adult", "adult", "child", "baby", "baby", "adult"), levels = c("baby", "child", "adult"))
@@ -52,5 +54,3 @@ frame1
 #Task 8. Змінити імена стовпців цього data frame.
 names(frame1) <- c("Rank", "Animal")
 frame1
-
-
